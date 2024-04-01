@@ -132,6 +132,7 @@ border: none;
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+    z-index: 999;
 }
 
 
@@ -1240,7 +1241,7 @@ width: 16px;
     .about-us-conteiner {
             flex-wrap: wrap;
             flex-direction: row;
-            gap: 24px;
+            gap: 72px 24px;
     }
     
 }
